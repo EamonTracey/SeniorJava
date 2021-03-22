@@ -9,7 +9,7 @@ public class NumberAboveAverage {
         double temperature;
         double average;
 
-        System.out.println("Please input 10 temperatures: ");
+        System.out.print("Please input 10 temperatures: ");
 
         Scanner keyboard = new Scanner(System.in);
         for (int i = 1; i <= 10; i++) {
